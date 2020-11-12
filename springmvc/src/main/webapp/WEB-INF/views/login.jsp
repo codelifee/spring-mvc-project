@@ -7,8 +7,10 @@
 <title>Yahoo from JSP</title>
 </head>
 <body> 
-<form action="/login.do">
-Enter your name <input type="text" name="name" /> <input type="submit" value="login"/>
+<form action="/login.do" method="post">
+name <input type="text" name="name" /> <br>
+Password <input type="password" name="password" /> <br>
+<input type="submit" value="login"/>
 </form>
 </body>
 </html>
