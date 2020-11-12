@@ -1,0 +1,12 @@
+package com.codelifee;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet(urlPatterns = "/login.do")
+public class LoginServlet extends HttpServlet{
+	  protected void doGet(javax.servlet.http.HttpServletRequest arg0, 
+			  javax.servlet.http.HttpServletResponse arg1) throws javax.servlet.ServletException, java.io.IOException;
+
+	
+}

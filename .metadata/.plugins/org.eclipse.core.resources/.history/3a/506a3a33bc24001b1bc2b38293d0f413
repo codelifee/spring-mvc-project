@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Yahoo from JSP</title>
+</head>
+<body>
+<%
+System.out.println(request.getParameter("name"));
+java.util.Date date = new java.util.Date();
+
+%>
+<div></div>
+
+My first JSP ${name}
+</body>
+</html>
