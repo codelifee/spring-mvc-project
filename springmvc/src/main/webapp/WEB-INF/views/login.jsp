@@ -7,6 +7,8 @@
 <title>Yahoo from JSP</title>
 </head>
 <body> 
+<p><font color="red">${errorMessage}</font></p>
+
 <form action="/login.do" method="post">
 name <input type="text" name="name" /> <br>
 Password <input type="password" name="password" /> <br>
