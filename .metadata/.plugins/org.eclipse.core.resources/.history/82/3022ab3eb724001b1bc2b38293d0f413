@@ -1,7 +1,0 @@
-package com.codelifee;
-
-import javax.servlet.http.HttpServlet;
-
-public class LoginServlet extends HttpServlet{
-
-}

@@ -1,0 +1,15 @@
+package com.codelifee.todo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TodoService {
+	private static List<Todo> todos = new ArrayList<Todo>();
+	private static int todoCount = 3;
+	
+	static {
+		todos.add(new Todo(1, "codelifee", "Learn Spring MVC", ))
+		todos.add(new Todo(1, "codelifee", "Learn Spring MVC", ))
+		todos.add(new Todo(1, "codelifee", "Learn Spring MVC", ))
+	}
+}
