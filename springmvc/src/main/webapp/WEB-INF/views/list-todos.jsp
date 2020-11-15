@@ -7,7 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
+Hi ${name}
+
 Your Todos are
-${todos}
+${todos} <br>
+
+<a class="button" href="/add-todo">Add</a>
 </body>
 </html>
