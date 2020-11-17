@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+	pageEncoding="EUC-KR"%>
+
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="container">
+		<H1>Add a todo</H1>
+		<form:form method="post" commandName="todo">
+			<fieldset class="form-group">
+				<form:label path="desc">Description</form:label> 
+				<form:input path="desc" type="text"
+					class="form-control" required="required" />
+				<form:errors path="desc" cssClass="text-warning" />
+			</fieldset>
+			<input type="submit" value="Submit" />
+		</form:form>
+	</div>
+</body>
+</html>
