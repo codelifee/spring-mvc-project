@@ -1,15 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
+<%@ include file="common/header.jspf" %>
+<%@ include file="common/navigation.jspf" %>
 
-<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="EUC-KR">
-<title>Insert title here</title>
-</head>
-<body>
 	<div class="container">
 		<H1>Add a todo</H1>
 		<form:form method="post" commandName="todo">
@@ -33,5 +25,5 @@
 			<input type="submit" value="Submit" />
 		</form:form>
 	</div>
-</body>
-</html>
+	
+<%@ include file="common/footer.jspf" %>

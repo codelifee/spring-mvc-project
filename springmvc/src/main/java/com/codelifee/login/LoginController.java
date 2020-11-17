@@ -14,6 +14,11 @@ public class LoginController {
 	
 	@Autowired
 	LoginService service;
+	
+	@RequestMapping(value="/", method= RequestMethod.GET)
+	public String handleWelcome() {
+		return "login";
+	}
 
 	@RequestMapping(value="/login", method= RequestMethod.GET)
 	public String handleGet() {
