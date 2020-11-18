@@ -5,5 +5,4 @@ INDEX VERSION 1.4+C:\Programming\Projects\SpringMVC\.metadata\.plugins\org.eclip
 3788137697.index
 485642199.index
 1446278970.index
-1446278970.index
 149827133.index

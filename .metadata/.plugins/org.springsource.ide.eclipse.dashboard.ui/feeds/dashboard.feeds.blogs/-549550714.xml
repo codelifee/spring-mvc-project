@@ -5,7 +5,63 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2020-11-16T19:02:17Z</updated>
+  <updated>2020-11-18T01:38:03Z</updated>
+  <entry>
+    <title>This Week in Spring - November 17th, 2020</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/11/18/this-week-in-spring-november-17th-2020" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-11-18:4272</id>
+    <updated>2020-11-18T01:38:03Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Can you believe it&amp;rsquo;s already November 17th, 2020!? We&amp;rsquo;re &lt;em&gt;weeks&lt;/em&gt; away from Thanksgiving here in the US and then the end-of-year holidays. I, for one, can not believe it. You know what else is pretty wild? The first week of January will be ten years of writing &lt;em&gt;This Week in Spring&lt;/em&gt;! &lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve got a pretty busy appearance schedule between now and the end of the year though. I&amp;rsquo;d love to see you at any of these events. &lt;/p&gt;
+&lt;div&gt;&#xD;
+&lt;OL&gt;&#xD;
+&#xD;
+&lt;li&gt;&lt;em&gt;2020-11-17&lt;/em&gt; - &lt;a href="https://instil.co/2020/11/03/the-redeye-bash/"&gt;Ireland Bash Talk &lt;/a&gt;  - I'll be speaking _tonight_ (California, USA / PDT time) &lt;/li&gt;&#xD;
+&lt;li&gt;&lt;em&gt;2020-11-18&lt;/em&gt; - &lt;a href="https://jcconf.tw/2020/"&gt;JCConf keynote speaker - Rsocket Revolution&lt;/a&gt;&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;em&gt;2020-11-18&lt;/em&gt; - &lt;a href="https://plus.qconferences.com/"&gt;QCon Plus&lt;/a&gt; - I'll be doing a presentation and doing live Q&amp;amp;A&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;em&gt;2020-11-19&lt;/em&gt; - the &lt;a href="https://www.meetup.com/KansasCityJUG/events/274575027/"&gt;Kansas City JUG&lt;/a&gt;&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;em&gt;2020-11-22&lt;/em&gt; - &lt;a href="https://gdg.community.dev/events/details/google-gdg-shanghai-presents-devfest-shanghai-2020/"&gt;GDG Devfest Shanghai&lt;/a&gt;&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;em&gt;2020-11-23&lt;/em&gt; - &lt;a href="http://www.javahispano.org/portada/2020/11/11/reactive-spring-con-josh-long.html"&gt;JavaHispano JUG presentation&lt;/a&gt;&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;em&gt;2020-12-03&lt;/em&gt; - &lt;a href="https://www.meetup.com/KnoxJava/events/nmfmbrybcpbwb/"&gt;Knoxville JUG&lt;/a&gt;&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;em&gt;2020-12-04&lt;/em&gt; - &lt;a href="https://javaconf.love/"&gt;I'll be speaking at the jLove conference, participating in both a talk and a panel&lt;/a&gt;&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;em&gt;2020-12-07&lt;/em&gt; - Join me, Spring Developer Advocate Josh Long for this 90 minute exploration of &lt;a href="https://tanzu.vmware.com/content/webinars/8-dec-springone-tour-apj"&gt;all things reactive and RSocket in Spring&lt;/a&gt;. This is ideally timed for &lt;a href="https://tanzu.vmware.com/content/webinars/8-dec-reactive-spring"&gt;folks in APJ&lt;/a&gt;, so sign up now!&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;em&gt;2020-12-15&lt;/em&gt; - I'll be speaking at the Warsaw, Poland JUG - &lt;a href="https://warszawa.jug.pl/"&gt;&lt;em&gt;Warszawa JUG&lt;/em&gt;. Check the website for more details as they become available&lt;/a&gt;&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;em&gt;2020-12-23&lt;/em&gt; - Join me on our &lt;a href="http://twitch.tv/vmwaretanzu"&gt;VMWare Tanzu &lt;/a&gt; channel - I'll be doing a &amp;quot;Code&amp;quot; stream at noon PDT &lt;/li&gt;&#xD;
+&#xD;
+&#xD;
+&lt;/OL&gt;&#xD;
+&lt;/div&gt;
+&lt;p&gt;And, with all that out of the way, we&amp;rsquo;ve got a &lt;em&gt;ton&lt;/em&gt; of stuff to get to this week so let&amp;rsquo;s dive right in! &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/11/12/a-bootiful-podcast-spring-boot-2-4-and-living-legend-cto-and-friend-john-davies"&gt;A Bootiful Podcast: Spring Boot 2.4 and living legend, CTO, and friend John Davies&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://pinniped.dev/posts/a-seal-of-approval/"&gt;A Seal of Approval: Project Pinniped&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.infoq.com/news/2020/11/aws-amazon-mq-rabbitmq/?itm_campaign=rightbar_v2&amp;itm_source=infoq&amp;itm_medium=news_link&amp;itm_content=link_text"&gt;AWS Announces Amazon MQ Will Support RabbitMQ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://inside.java/2020/11/16/biased-locking-obsoletion/"&gt;Biased locking Obsoletion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blogs.vmware.com/opensource/2020/11/17/buildkit-cli-for-kubectl/"&gt;BuildKit CLI for kubectl: A New Way to Build Container Images&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/11/16/case-study-elasticsearch-sink"&gt;Case Study: Elasticsearch sink&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://inside.java/2020/11/17/podcast-007/"&gt;Episode 7 ¡°The Vector API¡± with John Rose and Paul Sandoz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.sothawo.com/2020/11/implement-a-rolling-index-strategy-with-spring-data-elasticsearch-4-1/"&gt;Implement a rolling index strategy with Spring Data Elasticsearch 4.1 | sothawo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/mraible/status/1328791798089740290?s=12"&gt;Matt Raible looks at ways to secure your applications with Spring Security&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://inside.java/2020/11/13/new-lanai-ea-build/"&gt;New Project Lanai Early Access build&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://inside.java/2020/11/12/openjdk-projects-give-rise-to-innovation/"&gt;OpenJDK Projects Give Rise to Innovations in JDK 15 and Beyond&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://r2dbc.io/2020/11/10/r2dbc-joins-reactive-foundation"&gt;R2DBC joins Reactive Foundation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/11/13/spring-boot-2-3-6-available-now"&gt;Spring Boot 2.3.6 available now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now"&gt;Spring Boot 2.4.0 available now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blog.codecentric.de/en/2020/11/spring-boot-kong/"&gt;Spring Boot and Kong - another great post by Jonas Hecht over on Codecentric&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/11/13/spring-data-2020-0-new-and-noteworthy-in-spring-data-mongodb-3-1"&gt;Spring Data 2020.0 - New and Noteworthy in Spring Data MongoDB 3.1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/11/11/spring-data-2020-0-1-released"&gt;Spring Data 2020.0.1 released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blogs.vmware.com/opensource/2020/11/12/vmware-and-kubernetes-community-leaders/"&gt;VMware and Kubernetes Community Leaders&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/cloudfoundry/status/1326590899950931969"&gt; Cloud Foundry Is A Developer Experience For #Kubernetes &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/java/status/1326994457313464321"&gt; Update on 64-bit ARM Support for Oracle OpenJDK and Oracle JDK &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/java/status/1327301507457314816"&gt; Proposed to target JDK 16: JEP 389: Foreign Linker API (Incubator) &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.haproxy.com/blog/vsphere-7-with-tanzu-integrates-with-haproxy-for-load-balancing-enterprise-grade-kubernetes/"&gt;vSphere 7 with Tanzu Integrates with HAProxy for Load Balancing Enterprise-grade Kubernetes - HAProxy Technologies&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Case Study: Elasticsearch sink</title>
     <link rel="alternate" href="https://spring.io/blog/2020/11/16/case-study-elasticsearch-sink" />
@@ -1375,39 +1431,6 @@ Artem&lt;/p&gt;
     <updated>2020-10-29T23:46:08Z</updated>
     <content type="html">&lt;p&gt;Hi Spring fans! This week, &lt;a href="http://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks to legendary Spring Test Framework lead and JUnit contributor &lt;a href="http://twitter.com/sam_brannen"&gt;Sam Brannen (@sam_brannen)&lt;/a&gt;&lt;/p&gt;
 &lt;iframe title="Spring Test Framework lead Sam Brannen " height="122" width="100%" style="border: none;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/6xux3-f0cac3?from=pb6admin&amp;download=1&amp;version=1&amp;auto=0&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Helvetica&amp;skin=1&amp;pfauth=&amp;btn-skin=107"&gt;&lt;/iframe&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Notice of Permissions Changes to repo.spring.io, Fall and Winter, 2020</title>
-    <link rel="alternate" href="https://spring.io/blog/2020/10/29/notice-of-permissions-changes-to-repo-spring-io-fall-and-winter-2020" />
-    <category term="news" label="News and Events" />
-    <author>
-      <name>Trevor Marshall</name>
-    </author>
-    <id>tag:spring.io,2020-10-29:4249</id>
-    <updated>2020-10-29T23:35:00Z</updated>
-    <content type="html">&lt;p&gt;A critical piece of infrastructure, the Spring Artifactory instance &lt;a href="https://repo.spring.io"&gt;repo.spring.io&lt;/a&gt;, lies at the heart of the Spring portfolio development work. Since 2013, &lt;a href="https://jfrog.com"&gt;JFrog, Inc.&lt;/a&gt; has generously sponsored the instance for the Spring developer community.&lt;/p&gt;
-&lt;p&gt;The Artifactory repository streamlines our project development by acting as a single location where Spring engineers can point their builds and by providing the community with early access to our snapshots and milestones.&lt;/p&gt;
-&lt;p&gt;Today, we are providing notice of some upcoming changes to the repository.&lt;/p&gt;&lt;h2&gt;&lt;a href="#upcoming-changes" class="anchor" name="upcoming-changes"&gt;&lt;/a&gt;Upcoming Changes&lt;/h2&gt;
-&lt;p&gt;If you use &lt;a href="https://repo.spring.io"&gt;repo.spring.io&lt;/a&gt; as directed by &lt;a href="https://start.spring.io"&gt;start.spring.io&lt;/a&gt;, (for example, using only &lt;code&gt;/snapshot&lt;/code&gt; and &lt;code&gt;/milestone&lt;/code&gt;), these changes most likely will not affect you.&lt;/p&gt;
-&lt;p&gt;If you are resolving from any of the other repos, you might want to make note of the following dates:&lt;/p&gt;&lt;h3&gt;&lt;a href="#november-12-2020" class="anchor" name="november-12-2020"&gt;&lt;/a&gt;November 12, 2020&lt;/h3&gt;
-&lt;p&gt;Anonymous users will no longer be able to load &lt;em&gt;any&lt;/em&gt; 3rd party artifact into the repository caches.&lt;br/&gt;We will flush the caches and they will slowly refill only with artifacts used by our builds. &lt;/p&gt;&lt;h3&gt;&lt;a href="#january-6-2021" class="anchor" name="january-6-2021"&gt;&lt;/a&gt;January 6, 2021&lt;/h3&gt;
-&lt;p&gt;We will no longer support anonymous download of 3rd-party artifacts from &lt;a href="https://repo.spring.io"&gt;repo.spring.io&lt;/a&gt;. The &lt;code&gt;/libs-snapshot&lt;/code&gt;, &lt;code&gt;/libs-milestone&lt;/code&gt;, and &lt;code&gt;/libs-release&lt;/code&gt; repositories, which the Spring Team uses to build and release Spring projects, will require authentication.&lt;br/&gt;The &lt;code&gt;/snapshot&lt;/code&gt;, &lt;code&gt;/milestone&lt;/code&gt;, and &lt;code&gt;/release&lt;/code&gt; repositories will remain available, but please fetch our releases from a central repository.&lt;/p&gt;&lt;h2&gt;&lt;a href="#how-to-use-repo-spring-io" class="anchor" name="how-to-use-repo-spring-io"&gt;&lt;/a&gt;How to use repo.spring.io&lt;/h2&gt;
-&lt;p&gt;Spring Team members only need to make sure their builds are authenticated, and can carry on using &lt;code&gt;/libs-release&lt;/code&gt; etc.&lt;/p&gt;
-&lt;p&gt;Anonymous access using &lt;code&gt;/libs-snapshot&lt;/code&gt; or &lt;code&gt;/libs-milestone&lt;/code&gt; in the &lt;code&gt;pom.xml&lt;/code&gt;, or with these configured in a remote repository, should replace them with &lt;code&gt;/snapshot&lt;/code&gt; and &lt;code&gt;/milestone&lt;/code&gt;, respectively. These repositories will continue to provide pre-release access to fixes and features for the community.&lt;/p&gt;
-&lt;p&gt;Anonymous access using &lt;code&gt;/libs-release&lt;/code&gt; should stop.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Please avoid using &lt;code&gt;/release&lt;/code&gt;:&lt;/strong&gt; Our releases are all available from Maven Central. We do understand that there are a few exceptions in there. However, if it is still being abused after these changes, it could see restrictions as well.&lt;/p&gt;
-&lt;p&gt;The &lt;strong&gt;plugins&lt;/strong&gt; produced by the Spring Team will continue to resolve in their respective repositories:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;/plugins-snapshot-local&#xD;
-/plugins-milestone-local&#xD;
-/plugins-release-local
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You can keep references to &lt;code&gt;/plugins-release&lt;/code&gt; but do not attempt to resolve an upstream dependency from that repository, or it will fail. The local repositories will always work.&lt;/p&gt;
-&lt;p&gt;For everything else, please resolve elsewhere. Maven Central and JCenter are built and sponsored for that. &lt;a href="https://repo.spring.io"&gt;repo.spring.io&lt;/a&gt; is not.&lt;/p&gt;
-&lt;p&gt;As a final note, let me just say that we understand how these settings might have crept into projects over the years and that the last thing we want to do is break somebody&amp;rsquo;s project, degrade their productivity, or spoil their day. If any of these changes cause unforeseen problems, please reach out and we will do our best to help get things fixed ASAP. Raising an issue in a respective project should find its way to us, and you can tag me.&lt;/p&gt;
-&lt;p&gt;Repository administrators out there can also feel free to reach out to me if you are concerned about any downstream replication.&lt;/p&gt;
-&lt;p&gt;Take care,&lt;br/&gt;Trevor Marshall&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-framework/wiki/Spring-Artifactory"&gt;Spring Artifactory Wiki&lt;/a&gt;&lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>
