@@ -4,8 +4,11 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import javax.enterprise.inject.Model;
+import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -14,15 +17,20 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
+import com.codelifee.exception.ExceptionController;
+
 @Controller
 @SessionAttributes("name")
 public class TodoController {
+	
+	private Log logger = LogFactory.getLog(ExceptionController.class);
 	
 	@Autowired
 	TodoService service;
@@ -52,8 +60,10 @@ public class TodoController {
 	
 	@RequestMapping(value="/add-todo", method= RequestMethod.GET)
 	public String showTodoPage(ModelMap model) {
-		model.addAttribute("todo", new Todo(0,retrieveLoggedinUserName(), "Default Description", new Date(), false));
-		return "todo";
+		throw new RuntimeException("Dummy Exception");
+		
+//		model.addAttribute("todo", new Todo(0,retrieveLoggedinUserName(), "Default Description", new Date(), false));
+//		return "todo";
 	}
 	
 	@RequestMapping(value="/add-todo", method= RequestMethod.POST)
@@ -91,5 +101,12 @@ public class TodoController {
 		service.deleteTodo(id);
 		model.clear();
 		return "redirect:list-todos";
+	}
+	
+	@ExceptionHandler(value = Exception.class)
+	public String handleException(HttpServletRequest request, Exception ex) {
+		logger.error("Request " + request.getRequestURI()
+					+ " threw an Exception", ex);
+		return "error-specific";
 	}
 }

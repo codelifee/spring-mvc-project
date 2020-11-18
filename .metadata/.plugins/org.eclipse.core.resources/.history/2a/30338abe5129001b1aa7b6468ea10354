@@ -1,0 +1,8 @@
+package com.codelifee.exception;
+
+public class ExceptionController {
+
+	public static void main(String[] args) {
+		
+	}
+}

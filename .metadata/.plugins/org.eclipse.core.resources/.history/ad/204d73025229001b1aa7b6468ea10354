@@ -1,0 +1,14 @@
+package com.codelifee.exception;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.commons.logging.LogFactory;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+
+@ControllerAdvice
+public class ExceptionController {
+
+	public String handleException(HttpServletRequest request, Exception ex) {
+		private Log logger = LogFactory.getLog(ExceptionController.class);
+	}
+}

@@ -1,0 +1,5 @@
+package com.codelifee.exception;
+
+public class ExceptionController {
+
+}
